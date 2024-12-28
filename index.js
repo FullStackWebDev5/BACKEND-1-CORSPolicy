@@ -31,7 +31,7 @@ app.use(cors({
 /* -------------------------------- */
 
 app.get('/', (req, res) => {
-  res.json('Welcome to Server')
+  res.send('Welcome to Server')
 })
 
 app.get('/users', (req, res) => {
